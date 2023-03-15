@@ -1,6 +1,6 @@
 # Predicting-House-Prices-with-Machine-Learning
 
-Our goal is to predict sale prices for homes in Ames, Iowa using Advanced Regression Techniques.
+Our goal is to predict sale prices for homes in Ames, Iowa using Advanced Supervised Regression Techniques.
 
 ## Tools and Libraries
 - Tools :
@@ -11,4 +11,6 @@ Our goal is to predict sale prices for homes in Ames, Iowa using Advanced Regres
 #####        Scikit Learn — For machine learning
 #####        NumPy — For linear algebra and mathematics
 #####        Seaborn — For data visualization
+
+## Our Machine Learning Model Development Cycle
 
