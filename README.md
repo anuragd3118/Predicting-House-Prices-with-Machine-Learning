@@ -27,6 +27,12 @@ My goal is to predict sale prices for homes in Ames, Iowa using Advanced Supervi
 ##### Gradient Boosting Machines
 - A type of boosting method that uses a combination of decision tree in series. Each tree is used to predict and correct the errors by the preceding tree additively.
 
+## Hyperparameters
+- max_depth — The maximum number of nodes for a given decision tree.
+- max_features — The size of the subset of features to consider for splitting at a node.
+- n_estimators — The number of trees used for boosting or aggregation. This hyperparameter only applies to the random forest and gradient boosting machines.
+- learning_rate — The learning rate acts to reduce the contribution of each tree. This only applies for gradient boosting machines.
+
 ## Evaluation through Error Calculation
 My performance metric will be the Negative Root Mean Squared Error (NRMSE). I’ve used this because it’s the closest I can get to Kaggle’s scoring metric in SciKit Learn.
 
